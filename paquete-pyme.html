@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>Quittech - Desarrollo de páginas web profesionales y software para empresas</title>
+    <link rel="icon" href="imagenes/imagoss.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <script src="js/validacion-pyme.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&effect=fire-animation" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two&effect=3d-float|anaglyph|shadow-multiple" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar d-flex fadeuptm fixed-top align-items-center navbar-toggleable-md navbar-inverse bg-inverse">
+        <button class="navbar-toggler navbar-toggler-right my-2 " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon "></span>
+  </button>
+        <a class="navbar-brand asd mr-auto hidden-lg-up" href="#">
+            <img src="imagenes/imagoss.png" width="40" height="40" alt="">
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <!-- links a la izquierda -->
+
+            <ul class="navbar-nav menu mt-2 my-auto cl-effect-1 mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link asd zoomIt " href="http://www.quittech.com"><i class="fa fa-home fa-fw mr-2"></i>Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link asd zoomIt" href="http://www.quittech.com/nuestros-clientes.html"><i class="fa fa-user-circle fa-fw mr-2"></i>Soporte técnico</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link asd zoomIt" href="http://www.quittech.com/live-preview.html"><i class="fa fa-rocket fa-fw fa-rotate-270 mr-2"></i>LivePreview</a>
+                </li>
+            </ul>
+
+            <a class="navbar-brand mx-auto hidden-md-down" href="#">
+                <img src="imagenes/imagoss.png" class="d-inline-block align-top" width="50" height="50" alt="">
+                <!-- Logo central -->
+            </a>
+            <!-- Links a la derecha -->
+
+            <ul class="navbar-nav mt-2 my-auto ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link asd dropdown-toggle zoomIt" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class=" fa fa-list-ul fa-fw mr-2"></i> Servicios
+                    </a>
+                    <div class="dropdown-menu bg text-white cl-effect-1" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item text-white" href="http://www.quittech.com/diseno-web.html"><i class=" fa fa-chevron-circle-right fa-fw mr-2"></i>Diseño web</a>
+                        <a class="dropdown-item text-white" href="http://www.quittech.com/marketing-web.html"><i class=" fa fa-chevron-circle-right fa-fw mr-2"></i>Marketing web</a>
+                        <a class="dropdown-item text-white" href="http://www.quittech.com/rediseno-web.html"><i class=" fa fa-chevron-circle-right fa-fw mr-2"></i>Rediseño de sitios web</a>
+                        <a class="dropdown-item text-white" href="http://www.quittech.com/puntos-de-venta.html"><i class=" fa fa-chevron-circle-right fa-fw mr-2"></i>Puntos de venta</a>
+
+                    </div>
+                </li>
+                <li class="nav-item my-auto dropdown">
+                    <a class="nav-link asd dropdown-toggle zoomIt" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class=" fa fa-list-ul fa-fw mr-2"></i> Paquetes web
+                    </a>
+                    <div class="dropdown-menu bg text-white cl-effect-1" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item text-white" href="http://www.quittech.com/paquete-economico.html"><i class=" fa fa-chevron-circle-right fa-fw mr-2"></i>Paquete Económico</a>
+                        <a class="dropdown-item text-white" href="http://quittech.com/paquete-basico.html"><i class=" fa fa-chevron-circle-right fa-fw mr-2"></i>Paquete Básico</a>
+                        <a class="dropdown-item text-white" href="http://www.quittech.com/paquete-pyme.html"><i class=" fa fa-chevron-circle-right fa-fw mr-2"></i>Paquete PYME</a>
+                        <a class="dropdown-item text-white" href="http://www.quittech.com/paquete-empresarial.html"><i class=" fa fa-chevron-circle-right fa-fw mr-2"></i>Paquete Empresarial</a>
+                        <a class="dropdown-item text-white" href="http://www.quittech.com/paquete-empresarial-plus.html"><i class=" fa fa-chevron-circle-right fa-fw mr-2"></i>Paquete Empresarial Plus</a>
+                    </div>
+                </li>
+                <li class="nav-item cl-effect-1">
+                    <a class="nav-link asd zoomIt" href="http://www.quittech.com/contacto.html"><i class=" fa fa-envelope fa-fw mr-2"></i>Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- header -->
+
+    <div class="ppme-header justify-content-center align-items-center py-4 d-flex">
+
+        <div class="text-center fadeup text-white">
+            <h1 class="display-1 tam-res-6">Paquete PYME</h1>
+
+        </div>
+    </div>
+
+    <!-- tarjeta -->
+
+    <div id="tarjeta" class="pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pt-4">
+                    <h1 class="display-4 bordes text-center fup tam-res-5 my-auto">Pequeñas y medianas empresas en línea
+                        <hr class="w-75  mx-auto">
+                    </h1>
+                </div>
+                <div class="col-12 fadeleft col-lg-4 pb-4">
+                    <div class="card mx-auto ">
+                        <div class="card-header bg-primary text-white ">
+                            <h4 class="card-title text-center display-4 tam-res-5">Características</h4>
+                        </div>
+                        <div class="card-block rounded">
+
+
+                            <p class="card-text">Nuestro Paquete PYME esta ideado principalmente para aquellas PyMES que necesitan un sitio web más trabajado para dar la mejor impresión a sus posibles clientes</p>
+                        </div>
+                        <ul class="list-group rounded list-group-flush">
+                            <li class="list-group-item"><i class="fa fa-check text-success mr-1"></i>Dominio Gratis <strong class="text-primary ml-1"> Por 1 año</strong></li>
+                            <li class="list-group-item"><i class="fa fa-check text-success mr-1"></i>Hospedaje Gratis <strong class="text-primary ml-1"> Por 1 año</strong></li>
+                            <li class="list-group-item"><i class="fa fa-check text-success mr-1"></i>Cinco secciones de página</li>
+                            <li class="list-group-item"><i class="fa fa-check text-success mr-1"></i>Código optimizado <small class="pl-1 text-muted"> (Su sitio carga más rápido)</small></li>
+                            <li class="list-group-item"><i class="fa fa-check text-success mr-1"></i>Formulario de contacto</li>
+                            <li class="list-group-item"><i class="fa fa-check text-success mr-1"></i>Diseño responsivo <small class="pl-1 text-muted">(Se adapta a tablets y celulares)</small></li>
+                            <li class="list-group-item"><i class="fa fa-check text-success mr-1"></i>Alta en buscadores</li>
+                            <li class="list-group-item"><i class="fa fa-check text-success mr-1"></i>Acceso a livepreview <small class="pl-1 text-muted">(Vea su sitio mientras se está desarrollando)</small></li>
+                            <li class="list-group-item"><i class="fa fa-check text-success mr-1"></i>Atención personalizada</li>
+                            <li class="list-group-item"><i class="fa fa-check text-success mr-1"></i>Soporte y mantenimiento <strong class="text-primary ml-1">Gratis</strong></li>
+                            <li class="list-group-item"><i class="fa fa-check text-success mr-1"></i>Redes sociales</li>
+                            <li class="list-group-item"><i class="fa fa-check text-success mr-1"></i>Cuentas de correo electrónico <strong class="pl-2 text-primary">Ilimitadas</strong></li>
+                            <li class="list-group-item"><i class="fa fa-check text-success mr-1"></i>Estadísticas del sitio</li>
+                            <li class="list-group-item"><i class="fa fa-check text-success mr-1"></i>Diseño con animaciones</li>
+
+
+                        </ul>
+                        <div class="card-block bg-primary">
+                            <p class="mx-auto">
+                                <Strong class="text-white text-center display-4 tam-res-5">Precio: $4,199.00 MXN</Strong>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card mx-auto my-4 ">
+                        <div class="card-header bg-primary text-white ">
+                            <h4 class="card-title text-center display-4 tam-res-5">Extras</h4>
+                        </div>
+                        <div class="card-block rounded">
+
+
+                            <p class="card-text">Añade opciones extra para añadir aún más funcionalidades a tu página web</p>
+                        </div>
+                        <ul class="list-group rounded list-group-flush">
+                            <li class="list-group-item"><i class="fa fa-cart-plus text-success mr-2"></i>Renovación de hosting y dominio <strong class="text-primary ml-3">$899.00 MXN </strong><small class="text-muted ml-2">Por un año</small></li>
+                            <li class="list-group-item"><i class="fa fa-cart-plus text-success mr-2"></i>Sección extra <strong class="text-primary ml-3">$499.00 MXN</strong></li>
+                            <li class="list-group-item"><i class="fa fa-cart-plus text-success mr-2"></i>Sistema auto administrable <strong class="text-primary ml-3">$1,999.00 MXN</strong></li>
+                            <li class="list-group-item"><i class="fa fa-cart-plus text-success mr-2"></i>Tienda virtual <strong class="text-primary ml-3">$3,499.00 MXN</strong></li>
+                            <li class="list-group-item"><i class="fa fa-cart-plus text-success mr-2"></i>Paquete de marketing web<strong class="text-primary ml-3">Precio depende del paquete elegido</strong></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 faderigth col-lg-8">
+                    <div class="row">
+
+                        <div class="col-12 pb-2 col-lg-6">
+                            <div class="card w-100">
+                                <img class="card-img-top" width="100%" height="auto" src="imagenes/ej-pyme-1.png" alt="Card image cap">
+                                <div class="card-block">
+                                    <h4 class="card-title text-center">Página con videos</h4>
+                                    <p class="card-text">Ejemplo completo sobre una página construida bajo los requisitos del paquete PYME.</p>
+                                    <p class="card-text"><strong>¿Te gustó este ejemplo?</strong> Háznoslo saber en el formulario de abajo</p>
+                                    <a href="http://www.quittech.com/ejemplo-pyme-1/" target="_blank" class="btn w-100 btn-primary">Ver en otra pestaña</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 pb-4 col-lg-6">
+                            <div class="card w-100" style="width: 20rem;">
+                                <img class="card-img-top" width="100%" height="auto" src="imagenes/ej-pyme-2.png" alt="Card image cap">
+                                <div class="card-block">
+                                    <h4 class="card-title text-center">Página todo en uno</h4>
+                                    <p class="card-text">Con este estilo de páginas puede tener todo su contenido en una sola página con scroll dinámico.</p>
+                                    <p class="card-text"><strong>¿Te gustó este ejemplo?</strong> Háznoslo saber en el formulario de abajo</p>
+                                    <a href="http://www.quittech.com/ejemplo-pyme-2" target="_blank" class="btn w-100 btn-primary">Ver en otra pestaña</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <h4 class="display-4 pb-4 text-center tam-res-3 my-auto">Ejemplos
+                            </h4>
+                            <hr class="w-50 mx-auto">
+                        </div>
+                        <div class="col-12">
+                            <h4 class="display-4 pb-2 text-center tam-res-3 my-auto">Contratar este paquete
+                            </h4>
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12 mx-auto col-lg-10">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <span class="input-group-addon" id="basic-addon1"><i class="fa fa-user fa-fw"></i></span>
+                                                <input type="text" class="form-control" id="nombre" placeholder="Nombre" aria-describedby="basic-addon1">
+                                            </div>
+                                            <span class="form-control-feedback"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-10 mx-auto ">
+
+                                        <div class="form-group">
+                                            <div class=" input-group">
+                                                <span class="input-group-addon" id="basic-addon1"><i class="fa fa-phone fa-fw"></i></span>
+                                                <input type="text" class="form-control" id="telefono" placeholder="Teléfono" aria-describedby="basic-addon1">
+                                            </div>
+                                            <span class="form-control-feedback"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 mx-auto col-lg-10">
+                                        <div class="form-group">
+                                            <div class=" input-group">
+                                                <span class="input-group-addon" id="basic-addon1"><i class="fa fa-building fa-fw"></i></span>
+                                                <input type="text" class="form-control" id="compania" placeholder="Compañía" aria-describedby="basic-addon1">
+                                            </div>
+                                            <span class="form-control-feedback"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 mx-auto col-lg-10">
+
+                                        <div class="form-group">
+                                            <div class=" input-group">
+                                                <span class="input-group-addon" id="basic-addon1"><i class="fa fa-at fa-fw"></i></span>
+                                                <input type="text" class="form-control" id="correo" placeholder="Correo electrónico" aria-describedby="basic-addon1">
+                                            </div>
+
+                                            <span class="form-control-feedback"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mx-auto">
+                                        <p class="tam-res-4 text-center">Cuéntanos tu idea</p>
+                                    </div>
+                                    <div class="col-12 mx-auto col-lg-10">
+                                        <div class="form-group">
+                                            <textarea class="form-control" id="descripcion" rows="6"></textarea>
+                                            <span class="form-control-feedback"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mx-auto col-lg-10 mt-2 mb-2">
+
+                                        <button type="button" id="btnvalidar" class="btn w-100 btn-primary">Enviar</button>
+                                    </div>
+
+                                    <div class="col-12 mx-auto">
+                                        <div class="form-group">
+                                            <div class="alert alert-danger" id="error">
+                                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                                <strong>No se pudo completar: </strong>Debe completar todos los campos marcados en rojo
+                                            </div>
+                                            <div class="alert alert-success text-center" id="exito">
+                                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                                <strong>¡Enviado con éxito! </strong>Nos pondremos en contacto con usted tan pronto como nos sea posible
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="w-100 bg-inverse">
+        <div class="container fadeleftpv py-4">
+            <div class="row">
+                <div class="col-12 pb-4 col-lg-6">
+                    <h4 class="lead text-white text-center">
+                        ¿Cómo trabajamos?
+                        <hr>
+                    </h4>
+
+                    <div class="container">
+                        <div id="accordion" class="accordion">
+                            <div class="card m-b-0">
+                                <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                    <i class="fa fa-first-order text-success mr-2"></i>
+                                    <a class="card-title">
+                    Paso 1: Contacto
+                </a>
+                                </div>
+                                <div id="collapseOne" class="card-block collapse">
+                                    <p>El primer paso se da al momento en el que usted nos elige como su opción de confianza para la creación de páginas web, inicia en el momento en que nosotros respondemos su solicitud y le enviamos la cotización que nos pidió a su correo electrónico.
+                                    </p>
+                                </div>
+                                <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                    <i class="fa fa-first-order text-warning mr-2"></i>
+                                    <a class="card-title">
+                  Paso 2: Reunión
+                </a>
+                                </div>
+                                <div id="collapseTwo" class="card-block collapse">
+                                    <p>En Quittech estamos convencidos de que el trato personal entre el cliente y su programador web es la mejor forma de asegurar que los requerimientos del sitio queden aclarados en su totalidad, esto es con fin de asegurarle lo mejor para su negocio y corroborar las necesidades técnicas de su nueva página.
+                                    </p>
+                                    <p>Quedaremos de acuerdo con usted por correo electrónico y enviaremos a uno de nuestros asesores a su negocio en la fecha y horario que usted nos pida.</p>
+                                </div>
+                                <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                    <i class="fa fa-first-order text-info mr-2"></i>
+                                    <a class="card-title">
+                 Paso 3: Contrato
+                </a>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse">
+                                    <div class="card-block">
+                                        <p>Una vez el asesor termine de recabar los datos necesarios para construir su sitio web se le entregara un contrato <small class="text-muted">(En caso de que necesite un contrato especial se lo haremos llegar por correo electrónico de otro modo se lo entregará el asesor en la reunión)</small> en este se especificarán las características pactadas, usted deberá firmarlo.
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                    <i class="fa fa-first-order text-primary mr-2"></i>
+                                    <a class="card-title">
+                 Paso 4: Início del proyecto
+                </a>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse">
+                                    <div class="card-block">
+                                        <p>Ya con el contrato firmado, procederemos a enviarle una propuesta de diseño para su sitio, aquí usted podrá sugerirnos cambios antes de empezar con la programación de su página web</p>
+                                        <p>Recuerde que la página se construirá de acuerdo al boceto que usted autorice y no habrá cambios mayores en el diseño del sitio una vez este sea aprobado</p>
+                                        <p><strong>Requerimos un anticipo de 50% del precio total del producto que adquirió para iniciar el proyecto</strong></p>
+                                    </div>
+                                </div>
+                                <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                    <i class="fa fa-first-order text-danger mr-2"></i>
+                                    <a class="card-title">
+                 Paso 5: Construcción
+                </a>
+                                </div>
+                                <div id="collapseFive" class="panel-collapse collapse">
+                                    <div class="card-block">
+                                        <p>
+                                            En la etapa de construcción del proyecto usted podrá entrar a nuestra pestaña "LivePreview", donde se mostrarán los cambios que se hagan en su página web diariamente, usted podrá sugerirle cambios al programador si así es necesario
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                                    <i class="fa fa-first-order text-muted mr-2"></i>
+                                    <a class="card-title">
+                 Paso 6: Finalización
+                </a>
+                                </div>
+                                <div id="collapseSix" class="panel-collapse collapse">
+                                    <div class="card-block">
+                                        <p>
+                                            Finalizando la etapa de construcción, se le enviará una notificación de revisión final y al ser esta aprobada, su sitio saldrá de LivePreview y pasará a estar en línea accesible desde su dirección web.
+                                        </p>
+                                        <p><strong>La página pasará a estar disponible una vez se complete el 100% del total de su pago</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h4 class="lead text-white text-center">
+                        Preguntas frecuentes
+                        <hr>
+                    </h4>
+
+                    <div class="container">
+                        <div id="accordion-2" class="accordion">
+                            <div class="card m-b-0">
+                                <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion-2" href="#collapseSeven">
+                                    <i class="fa fa-question-circle text-success mr-2"></i>
+                                    <a class="card-title">
+                    ¿Qué es LivePreview?
+                </a>
+                                </div>
+                                <div id="collapseSeven" class="card-block collapse">
+                                    <p>LivePreview es uno de nuestros servicios únicos, es un apartado especial en nuestro sitio web donde se publicarán de manera diaria los avances que se hagan en su nueva página web, desde este portal usted podrá enviar comentarios al programador encargado de realizar su proyecto
+                                    </p>
+                                </div>
+                                <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion-2" href="#collapseEigth">
+                                    <i class="fa fa-question-circle text-warning mr-2"></i>
+                                    <a class="card-title">
+                  ¿Puedo añadir opciones a un paquete? <small>Ej. Más secciones</small>
+                </a>
+                                </div>
+                                <div id="collapseEigth" class="card-block collapse">
+                                    <p>¡Claro!, estamos para servirle y ayudarle a encontrar su opción de diseño web perfecta, puedes elegir la opción al momento de solicitar la cotización o puedes pedirla antes de firmar el contrato.
+                                    </p>
+                                    <p>Contáctenos <a href="http://www.quittech.com/contacto.html">Aquí</a> o pregunte por añadidos al contratar su paquete</p>
+                                </div>
+                                <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion-2" href="#collapseNine">
+                                    <i class="fa fa-question-circle text-info mr-2"></i>
+                                    <a class="card-title">
+                 ¿Puedo administrar mi página web sin saber nada de computación?
+                </a>
+                                </div>
+                                <div id="collapseNine" class="panel-collapse collapse">
+                                    <div class="card-block">
+                                        <p>¡Claro!, nuestros sistemas están diseñados para que puedas administrarlos con el mínimo esfuerzo posible, de igual manera si tienes un problema actualizando, puedes contactar a nuestro soporte técnico, ellos estarán listos para ayudarte en cualquier momento</p>
+                                    </div>
+                                </div>
+                                <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion-2" href="#collapseTen">
+                                    <i class="fa fa-question-circle text-primary mr-2"></i>
+                                    <a class="card-title">
+                    Al terminar el año de dominio gratis, ¿Que debo hacer?
+                </a>
+                                </div>
+                                <div id="collapseTen" class="card-block collapse">
+                                    <p>Al terminar el año de hosting y dominio deberás contratar la renovación del servicio para que tu página pueda seguir siendo visible </p>
+                                    <p>Si prefieres cambiar de servicio de hosting, te facilitamos el código fuente de tu página desde nuestro soporte técnico.
+                                    </p>
+                                </div>
+                                <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion-2" href="#collapseEleven">
+                                    <i class="fa fa-question-circle text-danger mr-2"></i>
+                                    <a class="card-title">
+                    Aparte del pago establecido, ¿Debo pagar más?
+                </a>
+                                </div>
+                                <div id="collapseEleven" class="card-block collapse">
+                                    <p>No, al comprar un paquete web, estas pagando un servicio completo de diseño web por un año
+                                    </p>
+                                    <p>Se pueden generar cargos extra si añades funcionalidades extra a tu paquete, después de un año de servicio, se debe pagar la renovación del hosting y dominio.</p>
+                                </div>
+                                <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion-2" href="#collapseTwelve">
+                                    <i class="fa fa-question-circle text-muted mr-2"></i>
+                                    <a class="card-title">
+                    ¿Puedo actualizar la página con el tiempo?
+                </a>
+                                </div>
+                                <div id="collapseTwelve" class="card-block collapse">
+                                    <p>Si contrataste el extra "Sistema auto administrable", podrás actualizar el contenido de tu página web la cantidad de veces que desees por día, si no lo contrataste, tu página será estática, esto significa que no habrá cambios una vez puesta en línea
+                                    </p>
+                                    <p>Si quieres actualizar el contenido de tu página web, puedes contratar un paquete de rediseño web <a href="http://www.quittech.com/rediseno-web.html">Aquí</a> con un descuento del 20% si eres cliente de Quittech</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="mb-auto">
+        <div class="fade-up-footer container-fluid">
+            <div id="ft" class="row">
+
+                <div class="col-lg-2 d-flex justify-content-center hidden-md-up">
+                    <img src="imagenes/imagoss.png" class="align-self-center" alt="">
+                </div>
+
+                <div class="col-12 my-auto d-flex flex-column col-lg-5">
+
+
+                    <h4 class=" pb-2 tam-res-5 display-4 text-center pt-4">Contacto:
+                        <hr>
+                    </h4>
+                    <ul class="pl-4 justify-content-center list-unstyled">
+                        <li class="pb-2 display-4 tam-res-4"><i class="fa fa-fw fa-at mr-4"></i>contacto@quittech.com</li>
+                        <li class="pb-2 display-4 tam-res-4"><i class="fa fa-fw fa-phone mr-4"></i>5576171615</li>
+                        <li class=" pb-2 display-4 tam-res-4"><a href="https://www.facebook.com/quittechweb/" class="text-muted"><i class="fa fa-fw text-primary fa-facebook-square mr-4"></i>Facebook: Quittech</a></li>
+                        <li class=" pb-2 display-4 tam-res-4"><a href="https://twitter.com/quittech_web" class="text-muted"><i class="fa text-info fa-fw fa-twitter-square mr-4"></i>Twitter: @quittech_web</a></li>
+                        <li class="pb-2 display-4 tam-res-4"><i class="fa fa-fw fa-map-marker mr-4"></i>Jazmín no 7, Jardines del Llano, México, CDMX</li>
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-2 d-flex justify-content-center hidden-md-down">
+                    <img src="imagenes/imagoss.png" class="align-self-center" alt="">
+                </div>
+
+                <div class="col-12 col-lg-5">
+
+                    <div class="container-fluid">
+                        <div class="row">
+
+
+                            <div class="col-12 d-flex flex-column  col-lg-6">
+                                <h4 class=" pt-4 pb-2 tam-res-5 display-4 text-center">Servicios:
+                                    <hr>
+                                </h4>
+                                <ul class="pl-4 justify-content-center">
+                                    <li class=" pb-2 display-4 tam-res-4"><a href="http://www.quittech.com/diseno-web.html" class="text-muted">Diseño web</a></li>
+
+                                    <li class="pb-2 display-4 tam-res-4"><a href="http://www.quittech.com/marketing-web.html" class="text-muted">Marketing Web</a></li>
+
+                                    <li class=" pb-2 display-4 tam-res-4"><a href="http://www.quittech.com/diseno-wen.html" class="text-muted">Tienda Virtual</a></li>
+
+                                    <li class="pb-2 display-4 tam-res-4"><a href="http://www.quittech.com/rediseno-web.html" class="text-muted">Rediseño Web</a></li>
+
+                                    <li class="pb-2 display-4 tam-res-4"><a href="http://www.quittech.com/puntos-de-venta.html" class="text-muted">Instalación de puntos de venta</a></li>
+
+                                </ul>
+                            </div>
+
+
+                            <div class="col-12 d-flex flex-column col-lg-6">
+                                <h4 class=" pt-4 pb-2 tam-res-5 display-4 text-center">Paquetes Web:
+                                    <hr>
+                                </h4>
+                                <ul class="pl-4 justify-content-center ">
+                                    <li class=" pb-2 display-4 tam-res-4"><a href="http://www.quittech.com/paquete-economico.html" class="text-muted">Paquete Económico</a></li>
+
+                                    <li class=" pb-2 display-4 tam-res-4"><a href="http://www.quittech.com/paquete-basico.html" class="text-muted">Paquete Básico</a></li>
+
+                                    <li class=" pb-2 display-4 tam-res-4"><a href="http://www.quittech.com/paquete-pyme.html" class="text-muted">Paquete PYME</a></li>
+
+                                    <li class=" pb-2 display-4 tam-res-4"><a href="http://www.quittech.com/paquete-empresarial.html" class="text-muted">Paquete Empresarial</a></li>
+
+                                    <li class=" pb-2 display-4 tam-res-4"><a href="http://www.quittech.com/paquete-empresarial-plus.html" class="text-muted">Paquete Empresarial Plus</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js/java.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+
+</html>
